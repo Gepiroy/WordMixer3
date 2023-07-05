@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordMixer3", "WordMixer3\WordMixer3.csproj", "{45427347-1209-4B85-8DCD-C1400F85B882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45427347-1209-4B85-8DCD-C1400F85B882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45427347-1209-4B85-8DCD-C1400F85B882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45427347-1209-4B85-8DCD-C1400F85B882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45427347-1209-4B85-8DCD-C1400F85B882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF49944B-99BA-40C1-A108-D18F3D036775}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿<Window x:Class="WordMixer3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WordMixer3"
+        mc:Ignorable="d"
+        KeyDown="kDown"
+        Title="WordMixer 3" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <local:MixPanel x:Name="mix"/>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="[>]" Click="playMix"></Button>
+            <Button Content="[render]" Click="renderMix"></Button>
+            <TextBox x:Name="toGen" Width="300"></TextBox>
+            <Button Content="[gen]" Click="gen"></Button>
+        </StackPanel>
+        <local:BaseWavLine x:Name="bowl"/>
+        <StackPanel Orientation="Horizontal" Height="40">
+            <TextBox x:Name="sound" TextChanged="stc" Width="100"></TextBox>
+            <local:PointControl x:Name="startPC"></local:PointControl>
+            <local:PointControl x:Name="endPC"></local:PointControl>
+            <Button Content="[Play]" Click="playSelected"></Button>
+            <Button Content="[/\] To mixer" Click="addSelected"></Button>
+            <!--Button Content="[OK] leave" Click="leaveSAL"></Button-->
+        </StackPanel>
+        <Button Content="RandSel" Click="rselClick"></Button>
+        
+    </StackPanel>
+</Window>
